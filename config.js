@@ -1,12 +1,6 @@
 import dotenv from 'dotenv'
 
-/* dotenv.config()
-console.log('*****************************')
-console.log(process.env.PORT)
-console.log(process.env.MODO_PERSISTENCIA)
-console.log(process.env.STRCNX)
-console.log(process.env.BASE)
-console.log('*****************************') */ 
+dotenv.config()
 
 const PORT = process.env.PORT || 8080
 const MODO_PERSISTENCIA = process.env.MODO_PERSISTENCIA || 'MEM'   // 'MEM' - 'FILE' - 'MONGODB'
